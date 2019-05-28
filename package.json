@@ -1,0 +1,18 @@
+{
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "helmet": "^3.16.0",
+        "mongoose": "^5.5.0",
+        "nodemon": "^1.18.11",
+        "vue": "^2.6.10"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "development": "nodemon app.js"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0"
+    }
+}

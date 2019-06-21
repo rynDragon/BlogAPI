@@ -1,4 +1,10 @@
 {
+    "name": "blogapi",
+    "version": "0.19.0612",
+    "author": "rynDragon",
+    "contributors": [],
+    "bugs": "",
+    "description": "",
     "dependencies": {
         "body-parser": "^1.18.3",
         "ejs": "^2.6.1",

@@ -16,7 +16,6 @@ mongoose.Promise = global.Promise
 // Set a few options for the application
 // eslint-disable-next-line no-undef
 app.set('port', (process.env.PORT || 3000))
-app.set('view engine', 'ejs')
 
 // Expose the public directory
 // eslint-disable-next-line no-undef
@@ -40,7 +39,7 @@ mongoose.connect(config.db.connection, {
     }, // On success
     err => {
         // eslint-disable-next-line no-console
-        console.log('Mongoose connection error: ' + err)
+        console.log('Mongoose connection ' + err)
     } // On Failure
 )
 
